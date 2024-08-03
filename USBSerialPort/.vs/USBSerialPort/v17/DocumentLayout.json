@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|solutionrelative:SerialPort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|solutionrelative:SerialPort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3391B7C7-2DA4-45FD-BC68-CD5543D1EAE0}|USBSerialPort.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SerialPort.cpp",
+              "DocumentMoniker": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.cpp",
+              "RelativeDocumentMoniker": "SerialPort.cpp",
+              "ToolTip": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.cpp",
+              "RelativeToolTip": "SerialPort.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-03T09:08:06.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SerialPort.h",
+              "DocumentMoniker": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.h",
+              "RelativeDocumentMoniker": "SerialPort.h",
+              "ToolTip": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\SerialPort.h",
+              "RelativeToolTip": "SerialPort.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-03T08:47:40.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "dllmain.cpp",
               "DocumentMoniker": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\dllmain.cpp",
               "RelativeDocumentMoniker": "dllmain.cpp",
               "ToolTip": "Q:\\Projects\\USB Plugin\\Plugin\\SerialPortNativePlugin\\USBSerialPort\\dllmain.cpp",
               "RelativeToolTip": "dllmain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-03T08:43:57.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T08:43:57.202Z"
             },
             {
               "$type": "Bookmark",
