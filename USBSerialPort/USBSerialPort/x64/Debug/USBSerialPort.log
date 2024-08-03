@@ -1,0 +1,84 @@
+﻿  pch.cpp
+  dllmain.cpp
+  SerialPort.cpp
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(4,13): warning C4273: 'SerialPort::SerialPort': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(19,2):
+  see previous definition of '{ctor}'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(12,14): warning C4273: 'SerialPort::~SerialPort': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(20,3):
+  see previous definition of '{dtor}'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(17,18): warning C4273: 'SerialPort::Open': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(22,7):
+  see previous definition of 'Open'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(57,18): warning C4273: 'SerialPort::Close': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(23,7):
+  see previous definition of 'Close'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(65,17): warning C4273: 'SerialPort::Write': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(24,6):
+  see previous definition of 'Write'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(80,17): warning C4273: 'SerialPort::Read': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(25,6):
+  see previous definition of 'Read'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(93,18): warning C4273: 'SerialPort::IsOpen': inconsistent dll linkage
+  (compiling source file '/SerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(26,7):
+  see previous definition of 'IsOpen'
+  
+  ManagedSerialPort.cpp
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(5,13): warning C4273: 'Internal_CreateSerialPort': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(11,21):
+  see previous definition of 'Internal_CreateSerialPort'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(11,6): warning C4273: 'Internal_DestroySerialPort': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(12,14):
+  see previous definition of 'Internal_DestroySerialPort'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(16,6): warning C4273: 'Internal_Open': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(14,14):
+  see previous definition of 'Internal_Open'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(21,6): warning C4273: 'Internal_Close': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(15,14):
+  see previous definition of 'Internal_Close'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(26,5): warning C4273: 'Internal_Write': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(16,13):
+  see previous definition of 'Internal_Write'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(31,5): warning C4273: 'Internal_Read': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(17,13):
+  see previous definition of 'Internal_Read'
+  
+Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(36,6): warning C4273: 'Internal_IsOpen': inconsistent dll linkage
+  (compiling source file '/ManagedSerialPort.cpp')
+  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(18,14):
+  see previous definition of 'Internal_IsOpen'
+  
+  Generating Code...
+     Creating library Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.lib and object Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.exp
+LINK : warning LNK4217: symbol '??0SerialPort@@QEAA@PEADK@Z (public: __cdecl SerialPort::SerialPort(char *,unsigned long))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_CreateSerialPort'
+LINK : warning LNK4217: symbol '??1SerialPort@@QEAA@XZ (public: __cdecl SerialPort::~SerialPort(void))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function '"public: void * __cdecl SerialPort::`scalar deleting destructor'(unsigned int)" (??_GSerialPort@@QEAAPEAXI@Z)'
+LINK : warning LNK4217: symbol '?Open@SerialPort@@QEAA_NXZ (public: bool __cdecl SerialPort::Open(void))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_Open'
+LINK : warning LNK4217: symbol '?Close@SerialPort@@QEAAXXZ (public: void __cdecl SerialPort::Close(void))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_Close'
+LINK : warning LNK4217: symbol '?Write@SerialPort@@QEAAHPEBDK@Z (public: int __cdecl SerialPort::Write(char const *,unsigned long))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_Write'
+LINK : warning LNK4217: symbol '?Read@SerialPort@@QEAAHPEADK@Z (public: int __cdecl SerialPort::Read(char *,unsigned long))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_Read'
+LINK : warning LNK4217: symbol '?IsOpen@SerialPort@@QEBA_NXZ (public: bool __cdecl SerialPort::IsOpen(void)const )' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_IsOpen'
+  USBSerialPort.vcxproj -> Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.dll
