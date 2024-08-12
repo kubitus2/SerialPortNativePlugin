@@ -1,6 +1,4 @@
-﻿  pch.cpp
-  dllmain.cpp
-  SerialPort.cpp
+﻿  SerialPort.cpp
 Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cpp(4,13): warning C4273: 'SerialPort::SerialPort': inconsistent dll linkage
   (compiling source file '/SerialPort.cpp')
   Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(19,2):
@@ -36,43 +34,7 @@ Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.cp
   Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\SerialPort.h(26,7):
   see previous definition of 'IsOpen'
   
-  ManagedSerialPort.cpp
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(5,13): warning C4273: 'Internal_CreateSerialPort': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(11,21):
-  see previous definition of 'Internal_CreateSerialPort'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(11,6): warning C4273: 'Internal_DestroySerialPort': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(12,14):
-  see previous definition of 'Internal_DestroySerialPort'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(16,6): warning C4273: 'Internal_Open': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(14,14):
-  see previous definition of 'Internal_Open'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(21,6): warning C4273: 'Internal_Close': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(15,14):
-  see previous definition of 'Internal_Close'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(26,5): warning C4273: 'Internal_Write': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(16,13):
-  see previous definition of 'Internal_Write'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(31,5): warning C4273: 'Internal_Read': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(17,13):
-  see previous definition of 'Internal_Read'
-  
-Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.cpp(36,6): warning C4273: 'Internal_IsOpen': inconsistent dll linkage
-  (compiling source file '/ManagedSerialPort.cpp')
-  Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\ManagedSerialPort.h(18,14):
-  see previous definition of 'Internal_IsOpen'
-  
-  Generating Code...
+  LINK : Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.dll not found or not built by the last incremental link; performing full link
      Creating library Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.lib and object Q:\Projects\USB Plugin\Plugin\SerialPortNativePlugin\USBSerialPort\x64\Debug\USBSerialPort.exp
 LINK : warning LNK4217: symbol '??0SerialPort@@QEAA@PEADK@Z (public: __cdecl SerialPort::SerialPort(char *,unsigned long))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function 'Internal_CreateSerialPort'
 LINK : warning LNK4217: symbol '??1SerialPort@@QEAA@XZ (public: __cdecl SerialPort::~SerialPort(void))' defined in 'SerialPort.obj' is imported by 'ManagedSerialPort.obj' in function '"public: void * __cdecl SerialPort::`scalar deleting destructor'(unsigned int)" (??_GSerialPort@@QEAAPEAXI@Z)'

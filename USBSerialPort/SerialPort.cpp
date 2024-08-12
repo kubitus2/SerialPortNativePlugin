@@ -71,7 +71,7 @@ int SerialPort::Write(const char* data, DWORD length)
 
     if (!WriteFile(handle, data, length, &bytesWritten, NULL))
     {
-        return -1;
+        return -2;
     }
 
     return bytesWritten;
